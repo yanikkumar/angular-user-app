@@ -28,19 +28,23 @@
               </tr>
             </thead>
             <tbody>
+              @for(item of usersList; track $index) {
               <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>{{ item.department }}</td>
+                <td>{{ item.name }}</td>
+                <td>{{ item.gender }}</td>
+                <td>{{ item.mobile }}</td>
+                <td>{{ item.email }}</td>
+                <td>{{ item.doj }}</td>
+                <td>{{ item.status }}</td>
                 <td class="text-center">
                   <i class="fa fa-edit text-primary" (click)="onEdit()"></i> |
                   <i class="fa fa-trash text-danger" (click)="onDelete()"></i>
                 </td>
               </tr>
+              } @empty {
+              <span class="fw-bold border border-2 my-4">No Data</span>
+              }
             </tbody>
           </table>
         </div>
@@ -77,7 +81,7 @@
               >
                 <option value="">Select Department</option>
                 @for (item of departmentList; track $index) {
-                <option value="">{{ item }}</option>
+                <option value="{{ item }}">{{ item }}</option>
                 }
               </select>
             </div>
@@ -157,7 +161,7 @@
               >
                 <option value="">Select City</option>
                 @for (item of cityList; track $index) {
-                <option value="">{{ item }}</option>
+                <option value="{{ item }}">{{ item }}</option>
                 }
               </select>
             </div>

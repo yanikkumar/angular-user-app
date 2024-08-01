@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "id": "8a25",
+      "department": "HR",
+      "name": "Duncan Colon",
+      "mobile": "+1 (642) 343-1323",
+      "email": "xenezaxyqe@mailinator.com",
+      "gender": "female",
+      "doj": "1995-12-28",
+      "city": "Chandigarh",
+      "salary": "Distinctio In volup",
+      "address": "Excepteur quia commo",
+      "status": true
+    },
+    {
+      "id": "207b",
+      "department": "Management",
+      "name": "Nash Perkins",
+      "mobile": "+1 (758) 336-2201",
+      "email": "zunulyby@mailinator.com",
+      "gender": "female",
+      "doj": "2004-05-15",
+      "city": "Gurgaon",
+      "salary": "Excepteur fuga In e",
+      "address": "Illo perferendis ut ",
+      "status": true
+    },
+    {
+      "id": "9025",
+      "department": "Management",
+      "name": "Cameron Edwards",
+      "mobile": "+1 (614) 782-1752",
+      "email": "rigibixe@mailinator.com",
+      "gender": "female",
+      "doj": "1984-01-03",
+      "city": "Gurgaon",
+      "salary": "Deleniti doloremque ",
+      "address": "Quaerat omnis ut in ",
+      "status": false
+    },
+    {
+      "id": "3116",
+      "department": "IT",
+      "name": "Patrick Holmes",
+      "mobile": "+1 (363) 525-4751",
+      "email": "jyrovu@mailinator.com",
+      "gender": "male",
+      "doj": "2007-05-16",
+      "city": "Gurgaon",
+      "salary": "Velit excepturi corp",
+      "address": "Sed qui quia tempor ",
+      "status": true
+    },
+    {
+      "id": "b0b0",
+      "department": "HR",
+      "name": "Shelby Hurley",
+      "mobile": "+1 (254) 574-4442",
+      "email": "petify@mailinator.com",
+      "gender": "female",
+      "doj": "1998-07-16",
+      "city": "Mohali",
+      "salary": "Amet dolores volupt",
+      "address": "Omnis pariatur Volu",
+      "status": false
+    },
+    {
+      "id": "0c92",
+      "department": "Sales",
+      "name": "Erin Collins",
+      "mobile": "+1 (624) 836-1522",
+      "email": "xarasywi@mailinator.com",
+      "gender": "male",
+      "doj": "1982-04-10",
+      "city": "Delhi",
+      "salary": "Esse sed sapiente al",
+      "address": "Optio dolore qui cu",
+      "status": true
+    },
+    {
+      "id": "4594",
+      "department": "IT",
+      "name": "Maia Carlson",
+      "mobile": "+1 (307) 614-1688",
+      "email": "laguhem@mailinator.com",
+      "gender": "male",
+      "doj": "1994-03-03",
+      "city": "Delhi",
+      "salary": "Aut illo impedit od",
+      "address": "Incididunt dolorum u",
+      "status": true
+    },
+    {
+      "id": "c744",
+      "department": "Management",
+      "name": "Jessica Wolfe",
+      "mobile": "+1 (222) 599-7545",
+      "email": "kahu@mailinator.com",
+      "gender": "female",
+      "doj": "1980-01-13",
+      "city": "Delhi",
+      "salary": "Iure ex quis possimu",
+      "address": "Consequatur molestia",
+      "status": false
+    }
+  ]
+}

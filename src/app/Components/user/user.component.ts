@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { UserModel } from '../../Model/user';
 import { FormsModule, NgForm } from '@angular/forms';
+import { UserService } from '../../Services/user.service';
 
 @Component({
   selector: 'app-user',
@@ -9,7 +10,8 @@ import { FormsModule, NgForm } from '@angular/forms';
   templateUrl: './user.component.html',
   styleUrl: './user.component.css',
 })
-export class UserComponent {
+export class UserComponent implements OnInit {
+  usersList: UserModel[] = [];
   user: UserModel = {
     department: '',
     name: '',
@@ -23,10 +25,24 @@ export class UserComponent {
     status: false,
   };
 
+  constructor(private _userService: UserService) {}
+  ngOnInit(): void {
+    this.getUsersList();
+  }
   cityList: string[] = ['Chandigarh', 'Delhi', 'Mohali', 'Gurgaon'];
   departmentList: string[] = ['IT', 'HR', 'Accounts', 'Sales', 'Management'];
 
-  onSubmit(form: NgForm): void {}
+  getUsersList() {
+    this._userService.getUsers().subscribe((res) => {
+      this.usersList = res;
+    });
+  }
+
+  onSubmit(form: NgForm): void {
+    debugger;
+    console.log(form);
+    this._userService.addUser(this.user).subscribe((res) => {});
+  }
   onEdit() {}
   onDelete() {}
   onResetForm() {}
