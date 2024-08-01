@@ -72,11 +72,11 @@
       "mobile": "+1 (651) 932-5404",
       "email": "hese@mailinator.com",
       "gender": "female",
-      "doj": "1985-09-16",
+      "doj": "1985-09-18",
       "city": "Mohali",
-      "salary": 21,
+      "salary": 24,
       "address": "Praesentium nobis cu",
-      "status": true
+      "status": false
     },
     {
       "id": "fd9a",

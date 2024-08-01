@@ -13,6 +13,7 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class UserComponent implements OnInit {
   usersList: UserModel[] = [];
+  editMode: boolean = false;
   user: UserModel = {
     department: '',
     name: '',
@@ -44,14 +45,27 @@ export class UserComponent implements OnInit {
 
   onSubmit(form: NgForm): void {
     debugger;
-    console.log(form);
-    this._userService.addUser(this.user).subscribe((res) => {
-      this.getUsersList();
-      form.reset();
-      this._toastrService.success('User Created Successfully', 'Success');
-    });
+    if (this.editMode) {
+      console.log(form);
+      this._userService.updateUser(this.user).subscribe((res) => {
+        this.getUsersList();
+        this.editMode = false;
+        form.reset();
+        this._toastrService.success('User Updated Successfully', 'Success');
+      });
+    } else {
+      console.log(form);
+      this._userService.addUser(this.user).subscribe((res) => {
+        this.getUsersList();
+        form.reset();
+        this._toastrService.success('User Created Successfully', 'Success');
+      });
+    }
   }
-  onEdit() {}
+  onEdit(userData: UserModel) {
+    this.editMode = true;
+    this.user = userData;
+  }
   onDelete() {}
   onResetForm() {}
 }
