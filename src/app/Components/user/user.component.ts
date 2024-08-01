@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { UserModel } from '../../Model/user';
 import { FormsModule, NgForm } from '@angular/forms';
 import { UserService } from '../../Services/user.service';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-user',
@@ -25,7 +26,10 @@ export class UserComponent implements OnInit {
     status: false,
   };
 
-  constructor(private _userService: UserService) {}
+  constructor(
+    private _userService: UserService,
+    private _toastrService: ToastrService
+  ) {}
   ngOnInit(): void {
     this.getUsersList();
   }
@@ -41,7 +45,11 @@ export class UserComponent implements OnInit {
   onSubmit(form: NgForm): void {
     debugger;
     console.log(form);
-    this._userService.addUser(this.user).subscribe((res) => {});
+    this._userService.addUser(this.user).subscribe((res) => {
+      this.getUsersList();
+      form.reset();
+      this._toastrService.success('User Created Successfully', 'Success');
+    });
   }
   onEdit() {}
   onDelete() {}

@@ -90,6 +90,58 @@
       "salary": 43,
       "address": "Eos velit suscipit o",
       "status": true
+    },
+    {
+      "id": "c440",
+      "department": "Management",
+      "name": "Allen Dale",
+      "mobile": "+1 (133) 365-3074",
+      "email": "viry@mailinator.com",
+      "gender": "male",
+      "doj": "1985-03-08",
+      "city": "Gurgaon",
+      "salary": 7,
+      "address": "Sit elit consequatu",
+      "status": true
+    },
+    {
+      "id": "549f",
+      "department": "Management",
+      "name": "Rama Humphrey",
+      "mobile": "+1 (634) 873-3221",
+      "email": "gafy@mailinator.com",
+      "gender": "male",
+      "doj": "1991-07-11",
+      "city": "Gurgaon",
+      "salary": 45,
+      "address": "Dolore quae tenetur ",
+      "status": true
+    },
+    {
+      "id": "9cd3",
+      "department": "IT",
+      "name": "Sharon Watkins",
+      "mobile": "+1 (799) 989-6992",
+      "email": "cypuwapagi@mailinator.com",
+      "gender": "female",
+      "doj": "2008-12-25",
+      "city": "Delhi",
+      "salary": 84,
+      "address": "Atque rerum temporib",
+      "status": false
+    },
+    {
+      "id": "345d",
+      "department": "HR",
+      "name": "Erasmus Curtis",
+      "mobile": "+1 (845) 265-9544",
+      "email": "mypu@mailinator.com",
+      "gender": "male",
+      "doj": "2002-08-18",
+      "city": "Delhi",
+      "salary": 77,
+      "address": "Perferendis fuga Eu",
+      "status": false
     }
   ]
 }
