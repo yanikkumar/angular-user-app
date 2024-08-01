@@ -27,4 +27,7 @@ export class UserComponent {
   departmentList: string[] = ['IT', 'HR', 'Accounts', 'Sales', 'Management'];
 
   onSubmit(form: NgForm): void {}
+  onEdit() {}
+  onDelete() {}
+  onResetForm() {}
 }

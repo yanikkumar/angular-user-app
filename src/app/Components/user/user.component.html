@@ -37,8 +37,8 @@
                 <td></td>
                 <td></td>
                 <td class="text-center">
-                  <i class="fa fa-edit text-primary"></i> |
-                  <i class="fa fa-trash text-danger"></i>
+                  <i class="fa fa-edit text-primary" (click)="onEdit()"></i> |
+                  <i class="fa fa-trash text-danger" (click)="onDelete()"></i>
                 </td>
               </tr>
             </tbody>
@@ -55,7 +55,9 @@
               <h6 class="p-2">Add User</h6>
             </div>
             <div class="col-6 text-end">
-              <button class="btn btn-secondary">Reset</button>
+              <button class="btn btn-secondary" (click)="onResetForm()">
+                Reset
+              </button>
             </div>
           </div>
         </div>
