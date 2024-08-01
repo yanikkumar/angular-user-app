@@ -14,32 +14,6 @@
       "status": false
     },
     {
-      "id": "a281",
-      "department": "HR",
-      "name": "Iona Glover",
-      "mobile": "+1 (661) 814-4658",
-      "email": "ladu@mailinator.com",
-      "gender": "female",
-      "doj": "2005-12-09",
-      "city": "Gurgaon",
-      "salary": 25,
-      "address": "Dolor quasi obcaecat",
-      "status": true
-    },
-    {
-      "id": "5575",
-      "department": "HR",
-      "name": "Tana Cook",
-      "mobile": "+1 (211) 937-8121",
-      "email": "nuxaxejir@mailinator.com",
-      "gender": "male",
-      "doj": "1991-01-14",
-      "city": "Gurgaon",
-      "salary": 1,
-      "address": "Sed qui a aliqua Li",
-      "status": true
-    },
-    {
       "id": "184e",
       "department": "Sales",
       "name": "Jennifer Reyes",
@@ -79,19 +53,6 @@
       "status": false
     },
     {
-      "id": "fd9a",
-      "department": "HR",
-      "name": "David Obrien",
-      "mobile": "+1 (179) 976-3299",
-      "email": "vohyzutaso@mailinator.com",
-      "gender": "male",
-      "doj": "1996-09-28",
-      "city": "Chandigarh",
-      "salary": 43,
-      "address": "Eos velit suscipit o",
-      "status": true
-    },
-    {
       "id": "c440",
       "department": "Management",
       "name": "Allen Dale",
@@ -118,19 +79,6 @@
       "status": true
     },
     {
-      "id": "9cd3",
-      "department": "IT",
-      "name": "Sharon Watkins",
-      "mobile": "+1 (799) 989-6992",
-      "email": "cypuwapagi@mailinator.com",
-      "gender": "female",
-      "doj": "2008-12-25",
-      "city": "Delhi",
-      "salary": 84,
-      "address": "Atque rerum temporib",
-      "status": false
-    },
-    {
       "id": "345d",
       "department": "HR",
       "name": "Erasmus Curtis",
@@ -141,6 +89,32 @@
       "city": "Delhi",
       "salary": 77,
       "address": "Perferendis fuga Eu",
+      "status": false
+    },
+    {
+      "id": "184e",
+      "department": "IT",
+      "name": "Rebecca Webster",
+      "mobile": "+1 (651) 509-8638",
+      "email": "mupozepaj@mailinator.com",
+      "gender": "male",
+      "doj": "2013-09-20",
+      "city": "Delhi",
+      "salary": 27,
+      "address": "Autem non est molli",
+      "status": true
+    },
+    {
+      "id": "ae78",
+      "department": "HR",
+      "name": "Paki Morrow",
+      "mobile": "+1 (212) 343-2817",
+      "email": "cekocyre@mailinator.com",
+      "gender": "female",
+      "doj": "1991-06-18",
+      "city": "Gurgaon",
+      "salary": 16,
+      "address": "Ipsum ut suscipit et",
       "status": false
     }
   ]

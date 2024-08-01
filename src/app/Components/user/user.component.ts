@@ -66,6 +66,19 @@ export class UserComponent implements OnInit {
     this.editMode = true;
     this.user = userData;
   }
-  onDelete() {}
-  onResetForm() {}
+  onDelete(id: any) {
+    const isConfirm = confirm("Are you sure? This can't be undone!");
+
+    if (isConfirm) {
+      this._userService.deleteUser(id).subscribe((res) => {
+        this._toastrService.error('User Deleted Successfully', 'Deleted');
+        this.getUsersList();
+      });
+    }
+  }
+  onResetForm(form: NgForm) {
+    form.reset();
+    this.editMode = false;
+    this.getUsersList();
+  }
 }
