@@ -116,6 +116,19 @@
       "salary": 16,
       "address": "Ipsum ut suscipit et",
       "status": false
+    },
+    {
+      "id": "d292",
+      "department": "Sales",
+      "name": "Maya Sanford",
+      "mobile": "+1 (321) 497-9026",
+      "email": "bofix@mailinator.com",
+      "gender": "female",
+      "doj": "1999-03-20",
+      "city": "Gurgaon",
+      "salary": 68,
+      "address": "Rerum ut natus et in",
+      "status": true
     }
   ]
 }
