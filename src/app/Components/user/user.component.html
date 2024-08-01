@@ -28,7 +28,7 @@
               </tr>
             </thead>
             <tbody>
-              @for(item of usersList; track $index) {
+              @for(item of usersList.slice().reverse(); track $index) {
               <tr>
                 <td>{{ item.department }}</td>
                 <td>{{ item.name }}</td>
