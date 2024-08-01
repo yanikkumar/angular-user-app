@@ -1,0 +1,162 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-8">
+      <!-- Uesers List -->
+      <div class="card">
+        <div class="card-header bg-info">
+          <div class="row">
+            <div class="col-6 text-white">
+              <h6 class="p-2">Users Lists</h6>
+            </div>
+            <div class="col-6 text-end">
+              <button class="btn btn-secondary">Add User</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <table class="table table-bordered table-stripe">
+            <thead>
+              <tr>
+                <th>Department</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Mobile</th>
+                <th>Email</th>
+                <th>DOJ</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="text-center">
+                  <i class="fa fa-edit text-primary"></i> |
+                  <i class="fa fa-trash text-danger"></i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <!-- User Form -->
+      <div class="card">
+        <div class="card-header bg-info">
+          <div class="row">
+            <div class="col-6 text-white">
+              <h6 class="p-2">Add User</h6>
+            </div>
+            <div class="col-6 text-end">
+              <button class="btn btn-secondary">Reset</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <form class="row g-3">
+            <div class="col-6">
+              <select
+                class="form-select"
+                name="department"
+                id="department"
+                required
+              >
+                <option value="">Select Department</option>
+              </select>
+            </div>
+            <div class="col-6">
+              <input
+                type="text"
+                class="form-control"
+                name="name"
+                required
+                placeholder="Name"
+              />
+            </div>
+            <div class="col-6">
+              <input
+                type="tel"
+                class="form-control"
+                name="mobile"
+                required
+                placeholder="Mobile"
+              />
+            </div>
+            <div class="col-6">
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                required
+                placeholder="Email"
+              />
+            </div>
+            <div class="col-6">
+              <input
+                type="date"
+                class="form-control"
+                name="doj"
+                required
+                placeholder="Date of Join"
+              />
+            </div>
+            <div class="col-6">
+              <input
+                type="text"
+                class="form-control"
+                name="gender"
+                required
+                placeholder="Gender"
+              />
+            </div>
+            <div class="col-6">
+              <select class="form-select" name="city" id="city" required>
+                <option value="">Select City</option>
+              </select>
+            </div>
+            <div class="col-6">
+              <input
+                type="text"
+                class="form-control"
+                name="salary"
+                required
+                placeholder="Salary"
+              />
+            </div>
+            <div class="col-12">
+              <textarea
+                name="address"
+                class="form-control"
+                id="address"
+                cols="5"
+                rows="3"
+                required
+              ></textarea>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  name="status"
+                  id="status"
+                />
+                <label for="status" class="form-check-label"> Active</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-info w-100" type="submit">Save</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
